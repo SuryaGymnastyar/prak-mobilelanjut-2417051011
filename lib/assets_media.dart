@@ -25,7 +25,8 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
   }
 
   @override
-  void dispose() {
+  //Mematikan audio player dari memori saat widget dihancurkan
+  void dispose() { 
     player.dispose();
     super.dispose();
   }
@@ -61,7 +62,6 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                 Navigator.pushNamed(
                   context,
                   '/detail',
-                  arguments: 'Data dari Halaman Beranda',
                 );
               },
             ),
@@ -93,7 +93,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                   children: [
                     ClipOval(
                       child: Image.asset(
-                        'assets/images/IT.png',
+                        'assets/images/surya.png',
                         width: 120,
                         height: 120,
                         fit: BoxFit.cover,

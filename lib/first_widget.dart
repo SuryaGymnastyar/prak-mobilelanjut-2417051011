@@ -14,7 +14,7 @@ class FirstWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/IT.png',
+              'assets/images/surya.png',
               width: 150,
               height: 150,
             ), // Image.asset
