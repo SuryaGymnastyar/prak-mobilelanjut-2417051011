@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const AssetsMediaPage(),
-        '/detail': (context) => const DetaiPage()
+        '/detail': (context) => const DetailPage()
       },
     );
   }
